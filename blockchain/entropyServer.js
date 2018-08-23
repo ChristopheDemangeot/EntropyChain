@@ -17,14 +17,14 @@ const EntropyServer = function () {
         app.use(bodyParser.json());
 
         app.get('/addNode/:port', (req, res) => {
-            console.log('Add host: ' + req.params.port)
+            console.log('Addind Node: ' + req.params.port)
             mainNode.addNode('localhost', req.params.port)
             res.send();
         })
 
-        app.get('/spawnBrew/:teammember', (req, res) => {
-            let newBlock = mainNode.createBlock(req.params.teammember);
-            console.log('block created');
+        app.get('/addData/:blockData', (req, res) => {
+            let newBlock = mainNode.createBlock(req.params.blockData);
+            console.log('New block created - Hash: ' + newBlock.hash);
             res.send();
         })
 
