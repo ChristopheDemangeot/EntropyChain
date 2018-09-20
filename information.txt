@@ -1,3 +1,6 @@
 https://developers.caffeina.com/chiccocoin-learn-what-is-a-blockchain-by-creating-one-in-nodejs-12929a89208b
 https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54
 http://www.darrenbeck.co.uk/blockchain/nodejs/nodejscrypto/
+
+
+
